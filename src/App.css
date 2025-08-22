@@ -13,17 +13,22 @@
   color: black;
 }
 
-.mojibake{
+.s1{
   background-image: url("https://i.imgur.com/GTbhBv2.png");
   background-size: cover;
 }
 
-.p5{
+.mojibake {
+  background-color: white;
+  position: relative;
+  height: 200px;
+  width: 500px;
 }
 
-.p5 p{
+.mojibake p{
+  margin: 0;
   position: absolute;
-  z-index: 9999;
+  z-index: 10;
   height: 200px;
   width: 500px;
   display: flex;
@@ -32,6 +37,12 @@
   color: white;
 }
 
-pan{
-  padding: 20px;
+.mojibake .sketch{
+  position: absolute;
+  height: 200px;
+  width: 500px;
+}
+
+.s2{
+  padding: 0 10% 0 10%;
 }

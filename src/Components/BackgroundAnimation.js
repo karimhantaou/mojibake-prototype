@@ -42,5 +42,8 @@ export default (props) => {
         }
     };
 
-    return <Sketch setup={setup} draw={draw} />;
-};
+    return  <div className="mojibake">
+                <p>Mojibake</p>
+                <Sketch setup={setup} draw={draw}  className={"sketch"}/>
+            </div>
+    };
