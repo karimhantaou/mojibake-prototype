@@ -30,9 +30,9 @@ export default (props) => {
                 return; // Si le point est trop proche d'un point existant, on ne le dessine pas
             }
             else{
-                p5.circle(p5.random(minX, maxX), p5.random(minY, maxY), 1);
+                p5.fill(255);
+                p5.circle(p5.random(minX, maxX), p5.random(minY, maxY), 3);
                 totalPoints++;
-                console.log(`Total points: ${totalPoints} / ${maxPoints}`);
             }
         }
         pastPositions.push(p5.createVector(p5.random(minX, maxX), p5.random(minY, maxY)));
